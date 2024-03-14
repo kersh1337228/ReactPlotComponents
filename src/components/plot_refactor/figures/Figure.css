@@ -1,0 +1,5 @@
+.figureGrid {
+    display: grid;
+    grid-auto-rows: minmax(min-content, max-content);
+    grid-auto-columns: minmax(min-content, max-content);
+}

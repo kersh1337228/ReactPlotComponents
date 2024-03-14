@@ -1,0 +1,50 @@
+.modalDynamic {
+    position: fixed;
+    width: max-content;
+    height: max-content;
+    pointer-events: none;
+    user-select: none;
+    background: rgba(255, 255, 255, 0);
+    opacity: 0;
+    transition: opacity 0.3s;
+    cursor: default;
+}
+
+.modalDynamic.active {
+    pointer-events: all;
+    opacity: 1;
+}
+
+/*.modalDynamic .modalBackground {*/
+/*    position: absolute;*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    z-index: 10;*/
+/*    background: rgba(255, 255, 255, 0);*/
+/*    opacity: 0;*/
+/*    transition: opacity 0.3s;*/
+/*    pointer-events: none;*/
+/*    cursor: default;*/
+/*}*/
+
+/*.modalDynamic .modalBackground.active {*/
+/*    opacity: 1;*/
+/*}*/
+
+/*.modalDynamic .modalForeground {*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    width: max-content;*/
+/*    height: max-content;*/
+/*    pointer-events: none;*/
+/*    user-select: none;*/
+/*}*/
+
+/*.modalDynamic .modalForeground.active {*/
+/*    pointer-events: all;*/
+/*}*/

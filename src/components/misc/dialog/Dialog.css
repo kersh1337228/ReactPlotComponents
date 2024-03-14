@@ -1,0 +1,40 @@
+.dialog {
+    width: max-content;
+    height: max-content;
+    padding: 0 20px 20px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(7px);
+    border-radius: 7px;
+    font-family: "SF UI Display";
+}
+
+.dialog .dialogTitle {
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    cursor: grab;
+    font-weight: bold;
+}
+
+.dialog .dialogTitle:active {
+    cursor: grabbing;
+}
+
+.dialog .dialogMenu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dialog .dialogMenuTab {
+    cursor: pointer;
+}
+
+.dialog .dialogMenuTab.active {
+    color: #ffcd00;
+}

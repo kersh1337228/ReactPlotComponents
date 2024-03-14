@@ -1,0 +1,7 @@
+.drawingTooltips {
+    display: flex;
+    width: calc(100% + 50px);
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "SF UI Display";
+}

@@ -1,0 +1,23 @@
+.figureSettings {
+    padding: 10px;
+}
+
+.figureSettings .toggle {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.figureObjectTree {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.figureObjectTree .figureObjectTreeElement {
+    margin-left: 10px;
+}
